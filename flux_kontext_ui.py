@@ -228,21 +228,6 @@ def infer(prompt, input_image, guidance_scale, num_inference_steps,
 with gr.Blocks(title="FLUX.1 Kontext Image Editor") as gr_app:
     gr.Markdown("""
     # FLUX.1 Kontext Image Editor
-    
-    ### Tips for Better Results:
-    
-    **For stronger edits:**
-    - Use guidance scale 6.0-8.0
-    - Use 50+ inference steps
-    - Be very specific and detailed in your instructions
-    - Include style descriptors (e.g., "photorealistic", "high quality", "detailed")
-    
-    **Example Edit Instructions:**
-    - "Replace the entire background with a desert containing a flowering desert willow and a saguaro cactus. Photorealistic, high quality."
-    - "Transform the entire scene into a cyberpunk cityscape at night with neon lights, flying cars, and holographic advertisements"
-    - "Convert everything to look like it's underwater with fish swimming around, coral reefs, and bubbles floating up"
-    - "Change the setting to a magical fantasy forest with glowing mushrooms, fairy lights, and mystical fog"
-    - "Make it look like a professional oil painting in the style of Van Gogh with visible brushstrokes and vibrant colors"
     """)
     
     with gr.Row():
